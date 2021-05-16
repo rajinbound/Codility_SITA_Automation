@@ -29,8 +29,8 @@ def setup(request):
 
     driver.maximize_window()
     request.cls.driver = driver
-    #yield
-    #driver.close()
+    yield
+    driver.close()
 
 
 @pytest.mark.hookwrapper

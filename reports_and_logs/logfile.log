@@ -16,3 +16,39 @@
 2021-05-16 21:07:14,729 :INFO : test_success_login :Entering the email address
 2021-05-16 21:07:15,146 :INFO : test_success_login :Entering password
 2021-05-16 21:07:15,421 :INFO : test_success_login :Click on login button
+2021-05-16 21:54:24,208 :INFO : test_unseccess_login :Entering the wrong email address
+2021-05-16 21:54:24,717 :INFO : test_unseccess_login :Entering password
+2021-05-16 21:54:25,096 :INFO : test_unseccess_login :Click on login button
+2021-05-16 21:54:25,385 :INFO : test_invalid_email_login :Entering invalid email address
+2021-05-16 21:54:26,260 :INFO : test_invalid_email_login :Entering password
+2021-05-16 21:54:26,727 :INFO : test_invalid_email_login :Click on login button
+2021-05-16 21:54:27,002 :INFO : test_success_login :Entering the email address
+2021-05-16 21:54:27,653 :INFO : test_success_login :Entering password
+2021-05-16 21:54:28,218 :INFO : test_success_login :Click on login button
+2021-05-16 21:57:08,553 :INFO : test_unseccess_login :Entering the wrong email address
+2021-05-16 21:57:08,969 :INFO : test_unseccess_login :Entering password
+2021-05-16 21:57:09,431 :INFO : test_unseccess_login :Click on login button
+2021-05-16 21:57:09,951 :INFO : test_invalid_email_login :Entering invalid email address
+2021-05-16 21:57:10,914 :INFO : test_invalid_email_login :Entering password
+2021-05-16 21:57:11,587 :INFO : test_invalid_email_login :Click on login button
+2021-05-16 21:57:11,814 :INFO : test_success_login :Entering the email address
+2021-05-16 21:57:12,442 :INFO : test_success_login :Entering password
+2021-05-16 21:57:12,882 :INFO : test_success_login :Click on login button
+2021-05-16 22:12:03,129 :INFO : test_unseccess_login :Entering the wrong email address
+2021-05-16 22:12:03,599 :INFO : test_unseccess_login :Entering password
+2021-05-16 22:12:03,977 :INFO : test_unseccess_login :Click on login button
+2021-05-16 22:12:04,197 :INFO : test_invalid_email_login :Entering invalid email address
+2021-05-16 22:12:04,871 :INFO : test_invalid_email_login :Entering password
+2021-05-16 22:12:05,201 :INFO : test_invalid_email_login :Click on login button
+2021-05-16 22:12:05,349 :INFO : test_success_login :Entering the email address
+2021-05-16 22:12:05,591 :INFO : test_success_login :Entering password
+2021-05-16 22:12:05,798 :INFO : test_success_login :Click on login button
+2021-05-16 22:13:10,791 :INFO : test_unseccess_login :Entering the wrong email address
+2021-05-16 22:13:11,210 :INFO : test_unseccess_login :Entering password
+2021-05-16 22:13:11,508 :INFO : test_unseccess_login :Click on login button
+2021-05-16 22:13:11,719 :INFO : test_invalid_email_login :Entering invalid email address
+2021-05-16 22:13:11,965 :INFO : test_invalid_email_login :Entering password
+2021-05-16 22:13:12,177 :INFO : test_invalid_email_login :Click on login button
+2021-05-16 22:13:12,306 :INFO : test_success_login :Entering the email address
+2021-05-16 22:13:12,643 :INFO : test_success_login :Entering password
+2021-05-16 22:13:12,861 :INFO : test_success_login :Click on login button

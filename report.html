@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 04-May-2021 at 10:57:10 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 16-May-2021 at 22:13:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,8 +262,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.7.6rc1</td></tr></table>
     <h2>Summary</h2>
-    <p>5 tests ran in 36.67 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>4 tests ran in 8.51 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,60 +277,42 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_steps.py::TestDemoQA::test_Student_Registration_Form[getData0]</td>
-          <td class="col-duration">16.27</td>
+          <td class="col-name">tests/test_steps.py::TestDemoQA::test_empty_login[getData0]</td>
+          <td class="col-duration">5.91</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_Student_Registration_Form:test_steps.py:26 Entering the first name
-INFO     test_Student_Registration_Form:test_steps.py:28 Entering the last name
-INFO     test_Student_Registration_Form:test_steps.py:30 Entering the email
-INFO     test_Student_Registration_Form:test_steps.py:33 Entering the mobile
-INFO     test_Student_Registration_Form:test_steps.py:39 Entering the subject
-INFO     test_Student_Registration_Form:test_steps.py:44 Entering the address
-INFO     test_Student_Registration_Form:test_steps.py:53 Raj Mishra
-INFO     test_Student_Registration_Form:test_steps.py:55 random@random.com
-INFO     test_Student_Registration_Form:test_steps.py:57 Male
-INFO     test_Student_Registration_Form:test_steps.py:59 7734000000
-INFO     test_Student_Registration_Form:test_steps.py:61 01 January,1988
-INFO     test_Student_Registration_Form:test_steps.py:63 Arts
-INFO     test_Student_Registration_Form:test_steps.py:65 Sports
-INFO     test_Student_Registration_Form:test_steps.py:67 img.png
-INFO     test_Student_Registration_Form:test_steps.py:69 Southampton
-INFO     test_Student_Registration_Form:test_steps.py:71 NCR Delhi<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_steps.py::TestDemoQA::test_accept_the_alert</td>
-          <td class="col-duration">7.56</td>
+          <td class="col-name">tests/test_steps.py::TestDemoQA::test_unseccess_login[getData0]</td>
+          <td class="col-duration">0.93</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_accept_the_alert:test_steps.py:92 Alert is being accepted<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_unseccess_login:test_steps.py:34 Entering the wrong email address
+INFO     test_unseccess_login:test_steps.py:36 Entering password
+INFO     test_unseccess_login:test_steps.py:38 Click on login button<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_steps.py::TestDemoQA::test_hoover_me_to_see</td>
-          <td class="col-duration">2.03</td>
+          <td class="col-name">tests/test_steps.py::TestDemoQA::test_invalid_email_login[getData0]</td>
+          <td class="col-duration">0.58</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_hoover_me_to_see:test_steps.py:103 Hoover is being performed<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_invalid_email_login:test_steps.py:50 Entering invalid email address
+INFO     test_invalid_email_login:test_steps.py:53 Entering password
+INFO     test_invalid_email_login:test_steps.py:56 Click on login button<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_steps.py::TestDemoQA::test_drag_drop</td>
-          <td class="col-duration">3.67</td>
+          <td class="col-name">tests/test_steps.py::TestDemoQA::test_success_login[getData0]</td>
+          <td class="col-duration">0.85</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_drag_drop:test_steps.py:114 Alert is being draged<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_steps.py::TestDemoQA::test_model_dialog</td>
-          <td class="col-duration">6.74</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_model_dialog:test_steps.py:125 Modal is being closed<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_success_login:test_steps.py:69 Entering the email address
+INFO     test_success_login:test_steps.py:72 Entering password
+INFO     test_success_login:test_steps.py:75 Click on login button<br/></div></td></tr></tbody></table></body></html>
