@@ -4,7 +4,7 @@
     * [Install Python](https://www.python.org/downloads/)
     * Or Install Python with [PIP](https://pip.pypa.io/en/stable/installing/)
     ```
-    $ brew install pytest
+    $ pip install pytest
     ```
    
     ```
