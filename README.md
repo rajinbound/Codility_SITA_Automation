@@ -24,7 +24,7 @@
 ### Test Case coverage
 
 - Empty field login scenario 
-- Invalid email nad valid password
+- Invalid email and valid password
 - wrong email and valid password
 - Valid email and valid password
 
